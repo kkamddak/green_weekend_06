@@ -151,4 +151,25 @@
 ```
 <a href="http://naver.com">네이버로 이동</a>
 ```
+> 북마크 기능
 > 
+> 외부 페이지 연결이 아닌 같은 페이지에서 특정위치로 이동할 수 있게 해주는 기능
+> 
+> 도착지점에 id attribute를 사용하여 이름을 지정
+```
+<a href="#t1">목차</a>
+```
+<h2 id="t1">제목</h2>
+```
+
+### Table Element
+
+> 기본 사용 태그 : table, thead, tbody, tr, th, td
+
+> 열 제목 : thead(table hade), th(table heading)
+
+> 표 내용 : tbody(table body), td(table data)
+
+> 행 : tr(table row)
+
+
