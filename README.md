@@ -241,3 +241,14 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > div(division)
 > 
 > span
+
+### Block, Inline
+
+> 모든 element는 각각의 고유 영역을 가지고 있음.
+> 
+> Block element, Inline elemnet 구분은 이들 영역의 화면 표시 방식에 따른 구분
+> 
+> Block element는 줄바꿈 되어 표시 - Block elemnet 영역의 가로 너비가 부모 요소에 100% 채워짐
+> 
+> Inline elemnent는 같은 줄에 나란히 표시 - Inline element 영역의 가로 너비가 콘텐츠 크기만큼만 정해짐 
+> 
