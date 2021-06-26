@@ -231,4 +231,11 @@ https://www.tablesgenerator.com/html_tables
 > 이미지와 동영상, 오디오는 외부에서 만들어지는 콘텐츠
 > 
 > 이미지, 동영상 오디오는 직접 입력하는 것이 아니고 외부 파일을 삽입 => embed 콘텐츠
->
+
+### 웹 사이트 템플릿 디자인
+
+### Container Element (단순 영역 구분 요소)
+
+> div(division)
+> 
+> span
