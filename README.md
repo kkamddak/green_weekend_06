@@ -234,6 +234,8 @@ https://www.tablesgenerator.com/html_tables
 
 ### 웹 사이트 템플릿 디자인
 
+https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
+
 ### Container Element (단순 영역 구분 요소)
 
 > div(division)
