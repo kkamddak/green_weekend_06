@@ -286,5 +286,8 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > id는 HTML 문서내에서 고유해야함
 > 
 > class는 동일한 이름이 여러 개의 element에 사용되어 공통 디자인 요소나 공통 기능을 적용할 수 있음.
-
-
+> 
+> id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용 -> 백엔드 개발에서 주로 사용
+> 
+> class는 주로 css 스타일 적용, javascript 인터랙센 적용할 때 사용 => 프론드엔드 개발에서 주로 사용
+> 
