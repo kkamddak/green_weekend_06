@@ -256,10 +256,35 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > Inline elemnent는 같은 줄에 나란히 표시 - Inline element 영역의 가로 너비가 콘텐츠 크기만큼만 정해짐 
 > 
 > Inline elemnent는 위, 아래 여백을 적용할 수 없음
-> 
+
 
 ### Parent Element(부모요소), Child Elemnent(자식요소)
 
 > 포함관계에서 포함하는 요소가 부모요소, 포함되는 요소가 자식요소
+> 
 > 직계 포함관계에서만 부모요소, 자식요소
+> 
 > 직계가 아닌 포함관계에서는 조상요소(Ancestor Element), 자손요소(Descendant Elemnet)
+
+
+### CSS 기본 개념
+
+> 선택자는 스타일을 지정할 HTML 요소를 가리킵니다.
+>
+> 선언 블록에는 세미콜론으로 구분 된 하나 이상의 선언이 포함됩니다.
+>
+> 각 선언에는 콜론으로 구분 된 CSS 속성(Property0 이름과 값(Value)이 포함됩니다.
+>
+> 여러 CSS 선언은 세미콜론으로 구분하고 선언 블록은 중괄호로 묶습니다.
+
+### Id, Class
+
+> HTML Elemnet에 특정 이름을 사용할 때 id, class attribute를 사용해서 이름을 붙여줄 수 있음.
+> 
+> id는 동일한 이름이 사용된 HTML Element가 여러개이면 논리적 오류가 발생
+> 
+> id는 HTML 문서내에서 고유해야함
+> 
+> class는 동일한 이름이 여러 개의 element에 사용되어 공통 디자인 요소나 공통 기능을 적용할 수 있음.
+
+
