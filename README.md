@@ -291,3 +291,11 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > 
 > class는 주로 css 스타일 적용, javascript 인터랙센 적용할 때 사용 => 프론드엔드 개발에서 주로 사용
 > 
+
+### CSS 작성방법
+
+> External CSS : 파일 분리
+> 
+> Internal CSS : 같은 HTML 문서내에 <head> 태그 영역에 <style> 태그를 사용하여 입력
+> 
+> Inline CSS : 시작태그에 style arrtibute를 사용해서 입력 -> javascript에서 css를 제어할 때 사용
