@@ -356,4 +356,53 @@ class는 하나의 HTML Elemnet에 대해서 여러개의 이름을 지정할 �
 > 
 > 10진수 : (255, 255, 255)
 > 
+> CSS 사용법
+> 
+```
+color: #fcba03;
+color: rgb(252,186,3);
+color: rgba(252,186,3, 0.5);
+```
+
+> 투명도를 의미하는 용어
+> 
+> - transparent : 튜명한
+> 
+> - akoga : 추가 채널
+> 
+> - opacity : 불투명도
+
+
+### Text CSS
+
+> - color
+> 
+> - text align : left, center, right, justify
+> 
+> - text-decoration : underline, line-through, overline, none
+> 
+> - text-transform : uppercase, lowecase, Capitalize
+> 
+> - text-indent : 20px / -20px
+> 
+> - letter-spacing : 2px / -2px
+> 
+> - line-height : 20px / 1.8(배수)
+> 
+> - word-spacing
+> 
+> - white-space : nowrap
+> 
+> - text-shadow 
+
+
+### Font CSS
+
+> - font-family : "Times New Roma", Times, serif;
+> 
+> - 순서대로 대체 폰트를 찾음
+> 
+> - sans-serif, serif, monospace, cursive, fantasy 5개의 기본폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본으로 사용됨
+>  
+
 
