@@ -3,11 +3,12 @@
 ## HTML
 
 > HTML : Hypper Text Markup Language
-> 
-> 웹페이지의 <b>구조</b>를 표시
-> 
+>
 > 웹페이지의 콘텐츠를 표시
 > 
+> 웹페이지의 <b>구조</b>를 표시
+
+
 ### HTML Elements
 
 > Element :요소 - 의미적
@@ -327,3 +328,20 @@ class는 하나의 HTML Elemnet에 대해서 여러개의 이름을 지정할 �
 > HTML Element를 대상화 시키는 과정에서 Element 하나하나를 모두 객체화 시키는 이론
 > 
 > HTML Element 모두 각각 id, class attribute를 사용해서 이름을 지정해줌.
+
+
+### Web Colors
+
+> color mode
+> 
+> - 가산혼합(빛의 혼합) : RGB 컬러모드
+> 
+> 표현할 수 잇는 색의 계수
+> 1byte = 8bit = 256개(0~255)
+> RGB => 3btte => 24bit 트루컬러 : 16777216가지 색
+> 
+> 색 표현 코드값
+> 16진수(hex code) : #AAABA01
+> 10진수 : (255, 255, 255)
+> 
+
