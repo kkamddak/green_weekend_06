@@ -290,6 +290,10 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용 -> 백엔드 개발에서 주로 사용
 > 
 > class는 주로 css 스타일 적용, javascript 인터랙센 적용할 때 사용 => 프론드엔드 개발에서 주로 사용
+
+id는 하나의 HTML Elemnet에 대해서 하나의 이름만 존재, HTML 문서내에서 고유해야 함.
+
+class는 하나의 HTML Elemnet에 대해서 여러개의 이름을 지정할 수 있고, HTML 문서내에서 여러 곳에서 공통 사용 가능함.
 > 
 
 ### CSS 작성방법
@@ -300,10 +304,13 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > 
 > Inline CSS : 시작태그에 style arrtibute를 사용해서 입력 -> javascript에서 css를 제어할 때 사용
 
+
 ### naming할 때 표기방식
 
-> id/class naming, 변수/함수 naming, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용
-> 
+> id/class naming, 변수/함수/클래스 naming, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용
+> naming할 때 두단어 이상으로 구성되는 경우 단어와 단어 사이를 구분하기 위해 사용
+> 단어의 시작부분에 첫글자를 대문자로 변경, 특수기호를 사용
+
 > 표기방식을 사용하는 이유 
 > - naming 할 때 두단어 이상으로 구성되는 경우 단어와 단어 사이를 구분하기 위해 사용
 > - 단어의 시작부분에 첫글자를 대문자로 변경, 특수기호를 사용
@@ -313,3 +320,10 @@ https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 > kebab case : gnb-depth1 => id/class
 > camel case : gnbDepth1  => javascript의 변수/함수 
 > pascal case : GnbDepth1 => javascript의 클래스
+
+
+### OGCSS(Object Oriented CSS)
+
+> HTML Element를 대상화 시키는 과정에서 Element 하나하나를 모두 객체화 시키는 이론
+> 
+> HTML Element 모두 각각 id, class attribute를 사용해서 이름을 지정해줌.
