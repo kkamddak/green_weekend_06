@@ -449,20 +449,65 @@ color: rgba(252,186,3, 0.5);
 > 
 > padding-left
 
-> padding : 10px 20px 30px 40px(top right bottom left)
-> padding : 10px 20px 30px(top right/left bottom)
-> padding : 10px 20px(top/bottom right/left)
-> padding : 10px(top/right/bottom/left)
+> padding : 10px 20px 30px 40px (top right bottom left)
+> padding : 10px 20px 30px (top right/left bottom)
+> padding : 10px 20px (top/bottom right/left)
+> padding : 10px (top/right/bottom/left)
 
 
 ### magine
+
 > padding과 사용방법이 같음
 > 
 > margine collapse
 > - 위 아래 인접하게 배치된 박스의 사이여백이 둘 중 큰쪽으로만 적용되어 표현되는 현상
 > - 위아래 양쪽으로 margine을 적용하는 것보다 한쪽을 기준으로 적용하는 것이 더 좋음
 
-### border
-> 
 
+### border
+
+> border-top
+> 
+> border-right
+> 
+> border-bottom: 
+> 
+> border-left: 1px solid red;
+
+
+### 가로 배치
+※ inline 요소는 박스 모델이 제대로 적요되지 않기 때문에 레이아웃 구성 요소로 사용하기 어렵다.
+※ block 요소를 레이아웃 구성 요소로 사용함 => 세로 배치는 기본 구성
+
+가로 배치 기법
+- float
+- flex
+- grid
+
+
+### float
+> left, right 값을 사용해서 가로 배치
+> left, right는 부모요소를 기준으로 방향성을 표현
+> 일반적으로 왼쪽을 기준으로 순서대로 배치할 때 left만 사용해서 배치
+
+> float는 박스가 띄워지는 현상이 있기 때문에 인접해 있는 박스의 배치가 깨질 수 있음
+> float 박스를 부모요소로 감싸서 인접해 있는 박스와 float 박스를 감싸고 있는 부모요소와의 관계로 만들어 줌
+> float 박스를 감싸는 부모요소는 높이가 0이 될 수 있기 때문에 그것을 clear 할 수 있는 비어있는 자식요소를 넣어줌
+
+```
+HTML
+<div class="float-container">
+  <div class="float-box">text</div>
+  <div class="float-box">text</div>
+  <div class="clearfix"></div>
+</div>
+
+ CSS
+ .float-box{
+   float: left;
+ }
+ .clesarfix {
+   clear: both;
+ }
+```
 
