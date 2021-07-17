@@ -1,4 +1,6 @@
 # HTML, CSS, JS 기초
+https://github.com/ministori-yonsei/green_weekend_06
+https://codepen.io/ministori-yonsei
 
 ## HTML
 >
@@ -567,3 +569,14 @@ div {
 <input type="button" valu="확인">
 <button type="button">확인</button>
 ```
+
+
+### image 표현 방법
+>
+> 콘텐츠로 표현
+> 
+> - img 태그
+> 
+> 배경이미지로 표현
+> - background-image
+> 
