@@ -465,12 +465,14 @@ color: rgba(252,186,3, 0.5);
 
 
 ### border
-
-> border-top
+>
+> border: 1px solid red; (=>4방향 모두 적용)
 > 
-> border-right
+> border-top: 1px solid red; 
 > 
-> border-bottom: 
+> border-right: 1px solid red; 
+> 
+> border-bottom: 1px solid red; 
 > 
 > border-left: 1px solid red;
 
@@ -486,6 +488,7 @@ color: rgba(252,186,3, 0.5);
 
 
 ### float
+>
 > left, right 값을 사용해서 가로 배치
 > 
 > left, right는 부모요소를 기준으로 방향성을 표현
@@ -515,3 +518,18 @@ HTML
  }
 ```
 
+
+### display 속성
+>
+> 요소의 기본속성을 변형하지 않고 화면에 표시되는 속성을 변형
+> 
+> block, inline, inline-block
+> 
+```
+div {
+  display: inline;
+}
+=> div : inline 속성으로 화면에 표시
+```
+> inline-block : inline의 속성(한줄에 나란히 표시)와 block의 속성(박스모델 적용)을 모두 표시
+> 
