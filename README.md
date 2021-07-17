@@ -1,6 +1,8 @@
 # HTML, CSS, JS 기초
-https://github.com/ministori-yonsei/green_weekend_06
-https://codepen.io/ministori-yonsei
+> https://github.com/ministori-yonsei/green_weekend_06
+>
+> https://codepen.io/ministori-yonsei
+
 
 ## HTML
 >
