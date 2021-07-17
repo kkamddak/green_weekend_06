@@ -555,4 +555,15 @@ div {
 => div : inline 속성으로 화면에 표시
 ```
 > inline-block : inline의 속성(한줄에 나란히 표시)와 block의 속성(박스모델 적용)을 모두 표시
-> 
+
+
+### form 요소
+>
+> 웹페이지에서 사용자 입력을 받을 때 사용하는 요소
+```
+<input type="text"> : 일반 텍스트
+<input type="password"> : 비밀번호
+
+<input type="button" valu="확인">
+<button type="button">확인</button>
+```
