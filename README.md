@@ -578,6 +578,10 @@ div {
 >  
 > 디자인 요소로 표현
 > - background-image
+> 
+> IR(Image Replacement : 이미지 대체) 기법
+> - HTML Elemnent에는 텍스트로 표시
+> - 화면(브라우저)에 표시 할 때는 이미지로 표현
 
 
 ### background
@@ -597,4 +601,12 @@ div {
   background-position: left top; (앞:가로방향/뒤:세로방향)
   background-position: 100px 200px; (앞:가로방향/뒤:세로방향)
 }
+```
+> background-attachment
+> - 배경이미지를 고정
+> 
+> background 축약표현
+```
+background: #fff;
+background: url(image.jpg);
 ```
