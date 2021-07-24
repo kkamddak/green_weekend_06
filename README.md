@@ -668,3 +668,4 @@ background: url(image.jpg);
 > Event 감지 함수
 > - Javascript : addEventListener()
 > - jquery : on()
+
