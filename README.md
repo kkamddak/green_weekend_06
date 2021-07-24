@@ -650,4 +650,21 @@ background: url(image.jpg);
 }
 ```
 
+## Javascript
 
+### DOM
+
+### Event
+> 항상 변화에 따라 발생되는 신호
+> 
+> Event 발생
+> - Event 감지 : 종류, 상황
+> - 감지한 Event에 맞는 기능, 동작 실행
+> 
+> Event 종류
+> - Mouse Event : click, mouse over, mouse out
+> - Keyboard Event : key 입력
+
+> Event 감지 함수
+> - Javascript : addEventListener()
+> - jquery : on()
