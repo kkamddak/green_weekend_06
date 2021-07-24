@@ -631,6 +631,7 @@ background: url(image.jpg);
 @media screen and (max-width: 300px){}
 @media screen and (min-width: 300px){}
 
+
 // 독립된 구간으로 설정
 @media screen and (min-width: 360px) and (max-width: 700px){
   /* 스마트 폰 CSS */
@@ -638,6 +639,7 @@ background: url(image.jpg);
 @media screen and (min-width: 702px) and (max-width: 1920px){
   /* PC CSS */
 }
+
 
 // 포함된 구간을 설정
 
@@ -647,3 +649,5 @@ background: url(image.jpg);
   /* 스마트 폰 CSS */
 }
 ```
+
+
