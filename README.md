@@ -612,3 +612,9 @@ div {
 background: #fff;
 background: url(image.jpg);
 ```
+
+## 반응형 웹
+
+> OSMU(One Source Multi Use)
+> - One Source => HTML
+> - Multi Use => CSS, Javascript
