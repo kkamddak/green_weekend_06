@@ -446,7 +446,7 @@ color: rgba(252,186,3, 0.5);
 > - margin : 바깥 여백
 >
 
-### Wwdth/height
+### width/height
 > width : 너비/가로길이
 > 
 > height : 높이/세로길이
@@ -454,7 +454,7 @@ color: rgba(252,186,3, 0.5);
 > auto : 기본값
 > 
 > - Block : 너비 : 부모요소를 기준으로 채워짐 / 높이 : 콘텐츠(자식요소)를 기준으로 맞춰짐
->  - inline : 너비/높이 : 콘텐츠(자식요소)에 맞춰짐
+> - inline : 너비/높이 : 콘텐츠(자식요소)에 맞춰짐
 > 
 
 
@@ -488,7 +488,7 @@ color: rgba(252,186,3, 0.5);
 
 
 ### border
->
+
 > border: 1px solid red; (=>4방향 모두 적용)
 > 
 > border-top: 1px solid red; 
